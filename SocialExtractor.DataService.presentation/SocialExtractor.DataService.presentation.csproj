@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PLP.Social.DataService.common\PLP.Social.DataService.common.csproj" />
-    <ProjectReference Include="..\PLP.Social.DataService.domain\PLP.Social.DataService.domain.csproj" />
+    <ProjectReference Include="..\SocialExtractor.DataService.common\SocialExtractor.DataService.common.csproj" />
+    <ProjectReference Include="..\SocialExtractor.DataService.domain\SocialExtractor.DataService.domain.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PLP.Social.DataService.data\PLP.Social.DataService.data.csproj" />
+    <ProjectReference Include="..\SocialExtractor.DataService.data\SocialExtractor.DataService.data.csproj" />
   </ItemGroup>
 
 </Project>

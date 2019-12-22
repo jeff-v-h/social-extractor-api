@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using PLP.Social.DataService.data.Models.User;
+using SocialExtractor.DataService.data.Models.User;
 using SocialExtractor.DataService.domain.Models.ViewModels;
 
 namespace SocialExtractor.DataService.domain.Models.ModelMappers

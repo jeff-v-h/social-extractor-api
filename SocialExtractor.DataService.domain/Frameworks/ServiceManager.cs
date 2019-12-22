@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using PLP.Social.DataService.common.Helpers;
-using PLP.Social.DataService.data.Models;
-using PLP.Social.DataService.data.Repositories;
-using PLP.Social.DataService.data.XAL;
+using SocialExtractor.DataService.common.Helpers;
+using SocialExtractor.DataService.data.Models;
+using SocialExtractor.DataService.data.Repositories;
+using SocialExtractor.DataService.data.XAL;
 
 namespace SocialExtractor.DataService.domain.Frameworks
 {

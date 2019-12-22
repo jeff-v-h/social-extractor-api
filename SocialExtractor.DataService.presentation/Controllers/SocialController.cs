@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PLP.Social.DataService.domain.Managers;
-using PLP.Social.DataService.domain.Models.ViewModels;
+using SocialExtractor.DataService.domain.Managers;
+using SocialExtractor.DataService.domain.Models.ViewModels;
 using SocialExtractor.DataService.presentation.RequestModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;

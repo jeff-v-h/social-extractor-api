@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using MongoDB.Bson;
-using PLP.Social.DataService.data.Models;
-using PLP.Social.DataService.data.Repositories;
-using PLP.Social.DataService.data.XAL;
+using SocialExtractor.DataService.data.Models;
+using SocialExtractor.DataService.data.Repositories;
+using SocialExtractor.DataService.data.XAL;
 using SocialExtractor.DataService.domain.Models.ViewModels;
 using System;
 using System.Collections.Generic;

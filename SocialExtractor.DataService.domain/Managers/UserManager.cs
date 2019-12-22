@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using PLP.Social.DataService.common.Helpers;
-using PLP.Social.DataService.common.Models;
-using PLP.Social.DataService.data.Helpers;
-using PLP.Social.DataService.data.Models.User;
-using PLP.Social.DataService.data.Repositories;
+using SocialExtractor.DataService.common.Helpers;
+using SocialExtractor.DataService.common.Models;
+using SocialExtractor.DataService.data.Helpers;
+using SocialExtractor.DataService.data.Models.User;
+using SocialExtractor.DataService.data.Repositories;
 using SocialExtractor.DataService.domain.Models.ViewModels;
 using System;
 using System.Collections.Generic;
