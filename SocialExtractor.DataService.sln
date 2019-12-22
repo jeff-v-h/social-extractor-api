@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialExtractor.DataService.data", "SocialExtractor.DataService.data\SocialExtractor.DataService.data.csproj", "{CBFD23AA-115D-4950-B163-E181C8B041F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialExtractor.DataService.domain", "SocialExtractor.DataService.domain\SocialExtractor.DataService.domain.csproj", "{721AA5DC-4922-4ED4-9445-D096D51A1FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialExtractor.DataService.common", "SocialExtractor.DataService.common\SocialExtractor.DataService.common.csproj", "{FD13DC15-A80D-4916-9472-3F1B050F79F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialExtractor.DataService.presentation", "SocialExtractor.DataService.presentation\SocialExtractor.DataService.presentation.csproj", "{78F94665-C23B-43BF-AFE4-75B882D4AB29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5F0F726B-E7BD-4C8C-8274-7F8EA6EB530B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7D276DC2-28E8-48EC-BE01-CC7AAAE018E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2E97D8BA-E5AF-4576-A52B-3861DBC58F79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,27 @@ Global
 		{CBFD23AA-115D-4950-B163-E181C8B041F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBFD23AA-115D-4950-B163-E181C8B041F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBFD23AA-115D-4950-B163-E181C8B041F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721AA5DC-4922-4ED4-9445-D096D51A1FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721AA5DC-4922-4ED4-9445-D096D51A1FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721AA5DC-4922-4ED4-9445-D096D51A1FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721AA5DC-4922-4ED4-9445-D096D51A1FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD13DC15-A80D-4916-9472-3F1B050F79F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD13DC15-A80D-4916-9472-3F1B050F79F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD13DC15-A80D-4916-9472-3F1B050F79F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD13DC15-A80D-4916-9472-3F1B050F79F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F94665-C23B-43BF-AFE4-75B882D4AB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F94665-C23B-43BF-AFE4-75B882D4AB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F94665-C23B-43BF-AFE4-75B882D4AB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F94665-C23B-43BF-AFE4-75B882D4AB29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBFD23AA-115D-4950-B163-E181C8B041F4} = {5F0F726B-E7BD-4C8C-8274-7F8EA6EB530B}
+		{721AA5DC-4922-4ED4-9445-D096D51A1FBA} = {7D276DC2-28E8-48EC-BE01-CC7AAAE018E7}
+		{FD13DC15-A80D-4916-9472-3F1B050F79F0} = {7D276DC2-28E8-48EC-BE01-CC7AAAE018E7}
+		{78F94665-C23B-43BF-AFE4-75B882D4AB29} = {2E97D8BA-E5AF-4576-A52B-3861DBC58F79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EDAB576-A22F-40F9-8BF7-FC8A214A64C6}

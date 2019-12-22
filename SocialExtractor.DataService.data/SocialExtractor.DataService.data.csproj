@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PLP.Social.DataService.common\PLP.Social.DataService.common.csproj" />
+    <ProjectReference Include="..\SocialExtractor.DataService.common\SocialExtractor.DataService.common.csproj" />
   </ItemGroup>
 
 </Project>
