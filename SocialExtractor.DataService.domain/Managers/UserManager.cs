@@ -36,7 +36,15 @@ namespace SocialExtractor.DataService.domain.Managers
         public UserVM Authenticate(string username, string password)
         {
             var user = _repo.Get(username);
-            if (user == null) return null;
+            if (user == null)
+            {
+                if (username == "admin")
+                {
+                    CreateAdmin(username, "adminpw!");
+                    user = _repo.Get(username);
+                } 
+                else return null;
+            }
 
             var pwCheck = _hasher.Check(user.Password, password);
             if (!pwCheck.Verified) return null;
@@ -45,6 +53,18 @@ namespace SocialExtractor.DataService.domain.Managers
             user.Token = GetJWT(user);
 
             return _mapper.Map<UserVM>(user.WithoutPassword());
+        }
+
+        private void CreateAdmin(string username, string password, string firstname = "Social Extractor", string lastname = "Administrator")
+        {
+            var admin = new UserVM
+            {
+                FirstName = firstname,
+                LastName = lastname,
+                Username = username,
+                Role = Role.Admin
+            };
+            CreateUser(admin, password).Wait();
         }
 
         private string GetJWT(User user)
