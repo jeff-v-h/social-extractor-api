@@ -106,6 +106,7 @@ namespace SocialExtractor.DataService.presentation.Controllers
         }
 
         // POST: /api/sociallists/5dd69c3c17fce357dc82444e/items
+        [AllowAnonymous]
         [HttpPost("{id}/items")]
         [ProducesResponseType(typeof(MediaPostVM), StatusCodes.Status201Created)]
         public async Task<IActionResult> AddItemToSocialList(string id, MediaPostVM doc)
